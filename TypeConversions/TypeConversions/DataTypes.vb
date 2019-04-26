@@ -10,7 +10,10 @@
         Console.WriteLine(bl)
         Console.WriteLine(CSByte(bl))
         Console.WriteLine(CStr(bl))
-
+        Console.WriteLine(CStr(da))
+        Console.WriteLine(CChar(CChar(CStr(n))))
+        Console.WriteLine(CChar(CStr(da)))
+        Console.ReadKey()
     End Sub
 
 End Module
