@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0B31E5D2-ED7F-46CF-B68A-C678853E1E36}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>TypeConversions.Module1</StartupObject>
+    <StartupObject>TypeConversions.DataTypes</StartupObject>
     <RootNamespace>TypeConversions</RootNamespace>
     <AssemblyName>TypeConversions</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="DataTypes.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
