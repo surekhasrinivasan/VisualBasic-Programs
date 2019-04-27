@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4156703C-A0B9-4583-AFC6-31362A27D5F8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>VariableInitializationProgram.Module1</StartupObject>
+    <StartupObject>VariableInitializationProgram.variableNdatatypes</StartupObject>
     <RootNamespace>VariableInitializationProgram</RootNamespace>
     <AssemblyName>VariableInitializationProgram</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="variableNdatatypes.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
