@@ -5,14 +5,17 @@
         Dim b As Integer
         Dim c As Double
         Dim d As Double
+        Dim e As Double
 
         a = 10
         b = 20
         c = a + b
         d = a * b
+        e = a - b
 
         Console.WriteLine("a = {0}, b = {1}, c = {2}", a, b, c)
         Console.WriteLine("a = {0}, b = {1}, d = {2}", a, b, d)
+        Console.WriteLine("a = {0}, b = {1}, c = {2}", a, b, e)
         Console.ReadLine()
     End Sub
 
