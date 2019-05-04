@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{12F1CFDE-0C22-4396-A2DC-0B4499831945}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>UseOfEnumVariable.Module1</StartupObject>
+    <StartupObject>UseOfEnumVariable.constantsEnum</StartupObject>
     <RootNamespace>UseOfEnumVariable</RootNamespace>
     <AssemblyName>UseOfEnumVariable</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="constantsEnum.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
