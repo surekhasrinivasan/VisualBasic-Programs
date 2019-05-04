@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{08386AF6-55B3-487C-9465-6D53A8D29F5A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>UseOfConstValue.Module1</StartupObject>
+    <StartupObject>UseOfConstValue.constantNum</StartupObject>
     <RootNamespace>UseOfConstValue</RootNamespace>
     <AssemblyName>UseOfConstValue</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="constantNum.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
