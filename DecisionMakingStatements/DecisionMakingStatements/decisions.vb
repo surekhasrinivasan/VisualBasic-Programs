@@ -5,7 +5,9 @@
         Dim a As Integer = 10
 
         'check the boolean condition using if statement'
-
+        If (a < 20) Then
+            Console.WriteLine("a is less than 20")
+        End If
 
     End Sub
 
