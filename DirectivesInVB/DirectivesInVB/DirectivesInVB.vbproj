@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8ED1FB1E-8452-4427-93C0-5972899A2936}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>DirectivesInVB.Module1</StartupObject>
+    <StartupObject>DirectivesInVB.mydirectives</StartupObject>
     <RootNamespace>DirectivesInVB</RootNamespace>
     <AssemblyName>DirectivesInVB</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="mydirectives.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
