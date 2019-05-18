@@ -11,6 +11,11 @@
         lname = "Smith"
         fullname = fname + " " + lname
         Console.WriteLine("Full Name: {0}", fullname)
+
+        'by using string constructor
+        Dim letters As Char() = {"H", "e", "l", "l", "o"}
+        greetings = New String(letters)
+        Console.WriteLine("Greetings: {0}", greetings)
     End Sub
 
 End Module
