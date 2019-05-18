@@ -12,6 +12,15 @@
 
 
     'Example for #If...Then....#Else Directives
-
-
+#Const classCode = 8
+    Sub Main()
+#If classCode = 7 Then
+              Console.WriteLine("Exam Questions for Class VII")
+#ElseIf classCode = 8 Then
+        Console.WriteLine("Exam Questions for Class VIII")
+#Else
+              Console.WriteLine("Exam Questions for Higher Classes")
+#End If
+        Console.ReadKey()
+    End Sub
 End Module
