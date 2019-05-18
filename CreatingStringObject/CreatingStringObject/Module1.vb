@@ -21,6 +21,12 @@
         Dim sarray() As String = {"Hello", "From", "Happy", "Person"}
         Dim message As String = String.Join(" ", sarray)
         Console.WriteLine("Message: {0}", message)
+
+        'formatting method to convert a value
+        Dim waiting As DateTime = New DateTime(2012, 12, 12, 17, 58, 1)
+        Dim chat As String = String.Format("Message sent at {0:t} on {0:D}", waiting)
+        Console.WriteLine("Message: {0}", chat)
+        Console.ReadLine()
     End Sub
 
 End Module
