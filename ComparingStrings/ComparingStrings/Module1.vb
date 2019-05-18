@@ -6,9 +6,9 @@
         str2 = "This is Text"
 
         If (String.Compare(str1, str2) = 0) Then
-            Console.WriteLine(str1 + " and " + str2 + "are equal")
+            Console.WriteLine(str1 + " and " + str2 + " are equal")
         Else
-            Console.WriteLine(str1 + "and " + "are not equal")
+            Console.WriteLine(str1 + " and " + str2 + " are not equal")
         End If
         Console.ReadLine()
     End Sub
