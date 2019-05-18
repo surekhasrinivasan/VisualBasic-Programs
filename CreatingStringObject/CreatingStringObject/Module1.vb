@@ -16,6 +16,11 @@
         Dim letters As Char() = {"H", "e", "l", "l", "o"}
         greetings = New String(letters)
         Console.WriteLine("Greetings: {0}", greetings)
+
+        'methods return string 
+        Dim sarray() As String = {"Hello", "From", "Happy", "Person"}
+        Dim message As String = String.Join(" ", sarray)
+        Console.WriteLine("Message: {0}", message)
     End Sub
 
 End Module
