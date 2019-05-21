@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CECBEFD4-9D04-4637-8BA6-33FDC9FFBFD4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>CurrentDateAndTimeProgram.Module1</StartupObject>
+    <StartupObject>CurrentDateAndTimeProgram.dateNTime</StartupObject>
     <RootNamespace>CurrentDateAndTimeProgram</RootNamespace>
     <AssemblyName>CurrentDateAndTimeProgram</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="dateNTime.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
