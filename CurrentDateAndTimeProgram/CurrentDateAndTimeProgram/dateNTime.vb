@@ -26,6 +26,10 @@
         month = DateAndTime.Month(birthday)
         monthname = DateAndTime.MonthName(month)
 
-
+        Console.WriteLine(birthday)
+        Console.WriteLine(bday)
+        Console.WriteLine(month)
+        Console.WriteLine(monthname)
+        Console.ReadLine()
     End Sub
 End Module
