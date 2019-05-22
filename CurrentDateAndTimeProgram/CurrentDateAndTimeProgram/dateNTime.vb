@@ -22,5 +22,10 @@
         Dim monthname As String
         ' Assign a date using standard short format.
         birthday = #8/27/2009#
+        bday = DateAndTime.Day(birthday)
+        month = DateAndTime.Month(birthday)
+        monthname = DateAndTime.MonthName(month)
+
+
     End Sub
 End Module
