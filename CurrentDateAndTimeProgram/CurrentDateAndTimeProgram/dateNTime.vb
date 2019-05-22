@@ -1,20 +1,24 @@
 ﻿Module dateNTime
     'Program to demonstrate how to get Current date
-    Sub Main()
-        Console.WriteLine("Current Date: ")
-        Dim dt As Date = Today
-        Console.WriteLine("Today's date showing time: {0}", dt)
-        Console.WriteLine("Today'S date with day: {0}", dt.ToLongDateString)
-        Console.WriteLine("Today's date without showing time: {0}", dt.ToShortDateString)
-        Console.ReadLine()
-    End Sub
-
-    ''Program to demonstrate how to get Current time
     'Sub Main()
-    '    Console.WriteLine("Current Time: ")
-    '    Console.WriteLine(Now.ToLongTimeString)
+    '    Console.WriteLine("Current Date: ")
+    '    Dim dt As Date = Today
+    '    Console.WriteLine("Today's date showing time: {0}", dt)
+    '    Console.WriteLine("Today'S date with day: {0}", dt.ToLongDateString)
+    '    Console.WriteLine("Today's date without showing time: {0}", dt.ToShortDateString)
     '    Console.ReadLine()
     'End Sub
+
+    'Program to demonstrate how to get Current time
+    Sub Main()
+        'Console.WriteLine("Current Time: ")
+        Console.WriteLine("Display just the current time in {0} ", Now.ToLongTimeString)
+        Console.WriteLine("Display time without seconds: {0}", Now.ToShortTimeString)
+        Console.WriteLine("Universal time: {0}", Now.ToUniversalTime)
+        Console.WriteLine("Current time with date: {0}", Now.ToLocalTime)
+
+        Console.ReadLine()
+    End Sub
 
     'Program to demonstrate some of the properties and methods of DataAndTime class
     'Sub Main()
