@@ -7,11 +7,15 @@
     '    Console.ReadLine()
     'End Sub
 
-    'Program to demonstrate how to get Current time
-    Sub Main()
-        Console.WriteLine("Current Time: ")
-        Console.WriteLine(Now.ToLongTimeString)
-        Console.ReadLine()
-    End Sub
+    ''Program to demonstrate how to get Current time
+    'Sub Main()
+    '    Console.WriteLine("Current Time: ")
+    '    Console.WriteLine(Now.ToLongTimeString)
+    '    Console.ReadLine()
+    'End Sub
 
+    'Program to demonstrate some of the properties and methods of DataAndTime class
+    Sub Main()
+
+    End Sub
 End Module
