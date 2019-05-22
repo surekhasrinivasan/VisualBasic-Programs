@@ -16,6 +16,11 @@
 
     'Program to demonstrate some of the properties and methods of DataAndTime class
     Sub Main()
-
+        Dim birthday As Date
+        Dim bday As Integer
+        Dim month As Integer
+        Dim monthname As String
+        ' Assign a date using standard short format.
+        birthday = #8/27/2009#
     End Sub
 End Module
