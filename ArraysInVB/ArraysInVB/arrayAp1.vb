@@ -11,8 +11,10 @@
             n(i) = i + 100 ' set element at location i to i + 100
         Next i
         ' output each array element's value
-
-
+        For j = 0 To 10
+            Console.WriteLine("Element ({0}) = {1}", j, n(j))
+        Next j
+        Console.ReadLine()
     End Sub
 
 End Module
