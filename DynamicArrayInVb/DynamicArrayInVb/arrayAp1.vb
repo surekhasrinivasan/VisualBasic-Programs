@@ -9,6 +9,7 @@
         marks(1) = 75
         marks(2) = 90
 
+        ' Preserve keyword helps to preserve the data in an existing array, when you resize it 
         ReDim Preserve marks(10)
         marks(3) = 80
         marks(4) = 76
@@ -19,6 +20,7 @@
         For i = 0 To 10
             Console.WriteLine(i & vbTab & marks(i))
         Next i
+        Console.ReadLine()
     End Sub
 
 End Module
