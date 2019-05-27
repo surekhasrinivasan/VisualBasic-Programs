@@ -27,8 +27,8 @@
         For Each i In temp
             Console.Write("{0} ", i)
         Next i
-        Console.Write("{0} ", i)
-        Console.Read()
+        Console.WriteLine()
+        Console.ReadKey()
     End Sub
 
 End Module
