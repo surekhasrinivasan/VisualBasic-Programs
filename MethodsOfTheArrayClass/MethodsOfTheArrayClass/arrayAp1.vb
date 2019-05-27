@@ -20,6 +20,15 @@
         Next i
         Console.WriteLine()
 
+        ' Sort the array
+        Array.Sort(temp)
+        Console.Write("Sorted Array: ")
+
+        For Each i In temp
+            Console.Write("{0} ", i)
+        Next i
+        Console.Write("{0} ", i)
+        Console.Read()
     End Sub
 
 End Module
