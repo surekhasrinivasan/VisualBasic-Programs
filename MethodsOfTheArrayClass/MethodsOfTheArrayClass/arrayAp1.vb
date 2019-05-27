@@ -10,6 +10,16 @@
             Console.Write("{0} ", i)
         Next i
         Console.WriteLine()
+
+        ' reverse the array
+        Array.Reverse(temp)
+        Console.Write("Reversed Array: ")
+
+        For Each i In temp
+            Console.Write("{0} ", i)
+        Next i
+        Console.WriteLine()
+
     End Sub
 
 End Module
