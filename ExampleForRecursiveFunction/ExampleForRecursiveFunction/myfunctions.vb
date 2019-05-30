@@ -7,6 +7,12 @@
         ' local variable declaration 
         Dim result As Integer
 
+        If (num = 1) Then
+            Return 1
+        Else
+            result = factorial(num - 1) * num
+            Return result
+        End If
     End Function
     Sub Main()
 
