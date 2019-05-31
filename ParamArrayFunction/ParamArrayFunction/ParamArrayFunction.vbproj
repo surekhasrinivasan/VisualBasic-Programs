@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C932A8C1-7A27-48E3-A6E0-30FFF8168553}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>ParamArrayFunction.Module1</StartupObject>
+    <StartupObject>ParamArrayFunction.myparamfunc</StartupObject>
     <RootNamespace>ParamArrayFunction</RootNamespace>
     <AssemblyName>ParamArrayFunction</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="myparamfunc.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

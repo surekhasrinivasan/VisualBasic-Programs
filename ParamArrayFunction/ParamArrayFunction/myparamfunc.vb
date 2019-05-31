@@ -15,7 +15,12 @@
         Return sum
     End Function
     Sub Main()
-
+        Dim sum, sum2 As Integer
+        sum = AddElements(100, 200, 300, 400, 500)
+        sum2 = AddElements(11, 22, 33, 44, 55, 66, 77, 88, 99)
+        Console.WriteLine("The sum of all the elements in the array is:{0}", sum)
+        Console.WriteLine("The sum of all the elements in the array is:{0}", sum2)
+        Console.ReadLine()
     End Sub
 
 End Module
