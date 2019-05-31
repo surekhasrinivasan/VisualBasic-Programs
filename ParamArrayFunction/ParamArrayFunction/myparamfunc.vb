@@ -9,6 +9,10 @@
         Dim sum As Integer = 0
         Dim i As Integer = 0
 
+        For Each i In arr
+            sum += i
+        Next i
+        Return sum
     End Function
     Sub Main()
 
