@@ -5,7 +5,11 @@
         Dim i As Integer
         Dim avg As Double
         Dim sum As Integer = 0
-
+        For i = 0 To size - 1
+            sum += arr(i)
+        Next i
+        avg = sum / size
+        Return avg
     End Function
     Sub Main()
 
