@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B763DB3B-0FBD-4D65-B942-3FE33213A15B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>PassingArraysAsFunction.Module1</StartupObject>
+    <StartupObject>PassingArraysAsFunction.arrayParameter</StartupObject>
     <RootNamespace>PassingArraysAsFunction</RootNamespace>
     <AssemblyName>PassingArraysAsFunction</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="arrayParameter.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
