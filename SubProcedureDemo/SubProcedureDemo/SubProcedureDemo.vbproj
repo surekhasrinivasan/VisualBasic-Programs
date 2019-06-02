@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{BF759CDD-34EC-4164-9F41-F386B52F094B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>SubProcedureDemo.Module1</StartupObject>
+    <StartupObject>SubProcedureDemo.mysub</StartupObject>
     <RootNamespace>SubProcedureDemo</RootNamespace>
     <AssemblyName>SubProcedureDemo</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="mysub.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
