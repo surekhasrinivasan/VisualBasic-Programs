@@ -6,6 +6,8 @@
         ' local variable declaration
         Dim pay As Double
 
+        pay = hours * wage
+        Console.WriteLine("Total Pay: {0:C}", pay)
     End Sub
     Sub Main()
 
