@@ -11,7 +11,18 @@
         y = temp ' put temp into y
     End Sub
     Sub Main()
+        ' local variable definition
+        Dim a As Integer = 100
+        Dim b As Integer = 200
 
+        Console.WriteLine("Before swap, value of a: {0}", a)
+        Console.WriteLine("Before swap, value of b: {0}", b)
+
+        ' calling a function to swap the values 
+        swap(a, b)
+        Console.WriteLine("After swap, value of a: {0}", a)
+        Console.WriteLine("After swap, value of b: {0}", b)
+        Console.ReadLine()
     End Sub
 
 End Module
