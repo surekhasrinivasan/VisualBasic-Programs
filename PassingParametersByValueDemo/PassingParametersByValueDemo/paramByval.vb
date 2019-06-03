@@ -6,7 +6,9 @@
     ' no effect On the argument.
     Sub swap(ByVal x As Integer, ByVal y As Integer)
         Dim temp As Integer
-
+        temp = x ' save the value of x
+        x = y ' put y into x 
+        y = temp ' put temp into y
     End Sub
     Sub Main()
 
