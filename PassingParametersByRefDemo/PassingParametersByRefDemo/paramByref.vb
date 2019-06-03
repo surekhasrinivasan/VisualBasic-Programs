@@ -5,6 +5,10 @@
     ' When you pass parameters by reference, unlike value parameters, a new storage location is 
     ' Not created for these parameters. The reference parameters represent the same memory location 
     ' as the actual parameters that are supplied to the method.
+    Sub swap(ByRef x As Integer, ByRef y As Integer)
+        Dim temp As Integer
+
+    End Sub
     Sub Main()
 
     End Sub
