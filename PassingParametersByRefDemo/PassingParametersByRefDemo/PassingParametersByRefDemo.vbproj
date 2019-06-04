@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{98B4755C-5A17-4FA6-ACFB-1047D1A059E5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>PassingParametersByRefDemo.Module1</StartupObject>
+    <StartupObject>PassingParametersByRefDemo.paramByref</StartupObject>
     <RootNamespace>PassingParametersByRefDemo</RootNamespace>
     <AssemblyName>PassingParametersByRefDemo</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="paramByref.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
