@@ -24,6 +24,11 @@
         'volume of box1
         volume = Box1.height * Box1.length * Box1.breadth
         Console.WriteLine("Volume of Box1: {0}", volume)
+
+        'volume of box2
+        volume = Box2.height * Box2.length * Box2.breadth
+        Console.WriteLine("Volume of Box2: {0}", volume)
+
         Console.ReadKey()
     End Sub
 
