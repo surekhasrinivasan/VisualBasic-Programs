@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F42F9232-837B-4A8B-8AE7-5AFB3F645E76}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>MyBoxClassDemo.Module1</StartupObject>
+    <StartupObject>MyBoxClassDemo.mybox</StartupObject>
     <RootNamespace>MyBoxClassDemo</RootNamespace>
     <AssemblyName>MyBoxClassDemo</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="mybox.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
