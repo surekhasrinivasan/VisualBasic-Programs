@@ -5,6 +5,9 @@
     ' Member variables are attributes Of an Object And they are kept Private To implement encapsulation. These 
     ' variables can only be accessed Using the Public member functions.
     Class Box
+        Public length As Double ' Length of a box
+        Public breadth As Double 'Breadth of a box
+        Public height As Double ' Height of a box 
 
     End Class
     Sub Main()
