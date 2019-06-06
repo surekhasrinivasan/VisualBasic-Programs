@@ -9,6 +9,22 @@
         Public breadth As Double 'Breadth of a box
         Public height As Double ' Height of a box 
 
+        Public Sub setLength(ByVal len As Double)
+            length = len
+        End Sub
+
+        Public Sub setBreadth(ByVal bre As Double)
+            breadth = bre
+        End Sub
+
+        Public Sub setHeight(ByVal hei As Double)
+            height = hei
+        End Sub
+
+        Public Function getVolume() As Double
+            Return length * breadth * height
+        End Function
+
     End Class
     Sub Main()
 
