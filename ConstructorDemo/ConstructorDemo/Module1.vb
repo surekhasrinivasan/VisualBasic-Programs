@@ -12,6 +12,10 @@
         Public Sub setLength(ByVal len As Double)
             length = len
         End Sub
+
+        Public Function getLength() As Double
+            Return length
+        End Function
     End Class
     Sub Main()
 
