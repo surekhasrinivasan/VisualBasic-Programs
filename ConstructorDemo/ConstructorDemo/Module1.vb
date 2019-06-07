@@ -8,6 +8,10 @@
         Public Sub New() ' constructor
             Console.WriteLine("Object is being created.")
         End Sub
+
+        Public Sub setLength(ByVal len As Double)
+            length = len
+        End Sub
     End Class
     Sub Main()
 
