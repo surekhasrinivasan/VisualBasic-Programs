@@ -8,6 +8,12 @@
         Public Sub New(ByVal len As Double) ' parameterized constructor
             Console.WriteLine("Object is being create, length ={0}", len)
         End Sub
+        Public Sub setLength(ByVal len As Double)
+            length = len
+        End Sub
+        Public Function getLength() As Double
+            Return length
+        End Function
     End Class
     Sub Main()
 
