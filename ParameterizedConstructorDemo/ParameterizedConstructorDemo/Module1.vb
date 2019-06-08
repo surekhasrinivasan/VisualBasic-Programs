@@ -6,7 +6,7 @@
         Private length As Double ' Length of a line
 
         Public Sub New(ByVal len As Double) ' parameterized constructor
-            Console.WriteLine("Object is being create, length ={0}", len)
+            Console.WriteLine("Object is being created, length = {0}", len)
         End Sub
         Public Sub setLength(ByVal len As Double)
             length = len
@@ -16,7 +16,13 @@
         End Function
     End Class
     Sub Main()
+        Dim line As Line = New Line(10.0)
+        Console.WriteLine("Length of line set by constructor is: {0}", line.getLength())
 
+        'set line length
+        line.setLength(6.0)
+        Console.WriteLine("Length of line set by setLength is :{0}", line.getLength())
+        Console.ReadKey()
     End Sub
 
 End Module
