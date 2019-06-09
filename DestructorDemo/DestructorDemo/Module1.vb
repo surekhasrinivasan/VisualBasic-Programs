@@ -12,6 +12,13 @@
         Protected Overrides Sub Finalize()  ' destructor
             Console.WriteLine("Object is being deleted")
         End Sub
+        Public Sub setLength(ByVal len As Double)
+            length = len
+        End Sub
+
+        Public Function getLength() As Double
+            Return length
+        End Function
 
         Sub Main()
 
