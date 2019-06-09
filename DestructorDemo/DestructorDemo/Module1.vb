@@ -9,6 +9,9 @@
         Public Sub New()   ' constructor
             Console.WriteLine("Object is being created")
         End Sub
+        Protected Overrides Sub Finalize()  ' destructor
+            Console.WriteLine("Object is being deleted")
+        End Sub
 
         Sub Main()
 
