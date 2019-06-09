@@ -4,8 +4,14 @@
     ' A destructor has the name Finalize and it can neither return a value nor can it take any parameters. 
     ' Destructor can be very useful For releasing resources before coming out Of the program Like 
     ' closing files, releasing memories, etc.
-    Sub Main()
+    Class Line
+        Private length As Double    ' Length of a line
+        Public Sub New()   ' constructor
+            Console.WriteLine("Object is being created")
+        End Sub
 
-    End Sub
+        Sub Main()
 
+        End Sub
+    End Class
 End Module
