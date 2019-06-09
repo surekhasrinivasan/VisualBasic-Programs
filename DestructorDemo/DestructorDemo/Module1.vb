@@ -1,0 +1,11 @@
+﻿Module Module1
+    ' A destructor is a special member Sub of a class that is executed whenever an object of its class goes out of scope.
+
+    ' A destructor has the name Finalize and it can neither return a value nor can it take any parameters. 
+    ' Destructor can be very useful For releasing resources before coming out Of the program Like 
+    ' closing files, releasing memories, etc.
+    Sub Main()
+
+    End Sub
+
+End Module
