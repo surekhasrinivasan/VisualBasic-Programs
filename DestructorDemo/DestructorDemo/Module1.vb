@@ -19,9 +19,12 @@
         Public Function getLength() As Double
             Return length
         End Function
-
-        Sub Main()
-
+        Shared Sub Main()
+            Dim line As Line = New Line()
+            'set line length
+            line.setLength(6.0)
+            Console.WriteLine("Length of line : {0}", line.getLength())
+            Console.ReadKey()
         End Sub
     End Class
 End Module
