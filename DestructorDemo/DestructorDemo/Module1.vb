@@ -19,7 +19,7 @@
         Public Function getLength() As Double
             Return length
         End Function
-        Shared Sub Main()
+        Sub Main()
             Dim line As Line = New Line()
             'set line length
             line.setLength(6.0)
